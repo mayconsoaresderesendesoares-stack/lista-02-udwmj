@@ -1,0 +1,21 @@
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de backup
+*.bak
+*.tmp
+*.swp
+
+# Ignorar pastas de IDEs
+.vscode/
+.idea/
+
+# Ignorar node_modules (se usar Node em algum teste futuro)
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração locais
+.env
