@@ -1,0 +1,145 @@
+/* ======== Exercício 1 - Texto simples ======== */
+body.ex1 {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* ======== Exercício 2 - Imagem ======== */
+  body.ex2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #eef2f3;
+  }
+  
+  img {
+    max-width: 300px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    margin: 20px auto;
+  }
+  
+  /* ======== Exercício 3 - Lista ordenada ======== */
+  body.ex3 {
+    font-family: Verdana, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  ol {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  ol li {
+    margin: 8px 0;
+    color: #444;
+  }
+  
+  /* ======== Exercício 4 - Lista não ordenada ======== */
+  body.ex4 {
+    font-family: Verdana, sans-serif;
+    background-color: #fafafa;
+    padding: 20px;
+  }
+  
+  ul {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  ul li {
+    margin: 6px 0;
+    color: #555;
+  }
+  
+  /* ======== Exercício 5 - Quadro de Aviso ======== */
+  body.aviso {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .quadro {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  }
+  
+  .quadro h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .quadro p {
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* ======== Exercício 6 - Tabela de Preços ======== */
+  body.tabela {
+    font-family: Verdana, sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  td {
+    border: 1px solid #333;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #d0e7ff;
+  }
+  
+  /* ======== Exercício 7 - Rodapé ======== */
+  body.rodape {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  footer a {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
